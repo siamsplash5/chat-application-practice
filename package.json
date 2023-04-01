@@ -1,16 +1,31 @@
 {
+    "name": "chat-application-practice",
+    "version": "1.0.0",
+    "description": "A Node.js chatting application for practice purpose",
+    "main": "app.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/siamsplash5/chat-application-practice.git"
+    },
+    "author": "Siam Ahmed <siamsplash52@gmail.com>",
     "license": "UNLICENSED",
     "dependencies": {
         "bcrypt": "^5.1.0",
+        "cookie-parser": "^1.4.6",
         "dotenv": "^16.0.3",
+        "ejs": "^3.1.9",
         "express": "^4.18.2",
+        "express-validator": "^6.15.0",
+        "http-errors": "^2.0.0",
         "jsonwebtoken": "^9.0.0",
         "lodash": "^4.17.21",
         "mongoose": "^7.0.3",
+        "multer": "^1.4.5-lts.1",
+        "nodemon": "^2.0.22",
         "react": "^18.2.0"
     },
     "scripts": {
-        "start": "nodemon index"
+        "start": "nodemon app"
     },
     "devDependencies": {
         "eslint": "8.2.0",
